@@ -29,7 +29,7 @@ clearbtn.addEventListener("click" , () => {
             realTimeScreenValue.push(btn.value);
             CurrentInput.innerHTML = realTimeScreenValue.join('');
             //to evaluate answer in real time 
-            if(btn.classlist.contains('num_btn')) {
+            if(btn.classList.contains('num_btn')) {
                 answerScreen.innerHTML = eval(realTimeScreenValue.join(''));
             }
         }
