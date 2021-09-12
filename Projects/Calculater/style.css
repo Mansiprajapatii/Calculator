@@ -33,7 +33,7 @@ body{
     border-bottom: 1px rgba(128, 128, 128, 0.116) solid;
 }
 
-#Display_area .container{
+#Display_area .CurrentInput{
     text-align: right;
     height: 8vh;
     color: white;
